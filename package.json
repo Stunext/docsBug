@@ -6,21 +6,21 @@
 		"start": "start-storybook -p 6006 --ci",
 		"build": "build-storybook"
 	},
-	"dependencies": {
+	"peerDependencies": {
 		"prop-types": "^15.8.1",
-		"react": "^18.0.0",
-		"react-dom": "^18.0.0",
+		"react": "^18.*",
+		"react-dom": "^18.*",
 		"react-router-dom": "^6.2.2"
 	},
 	"devDependencies": {
-		"@storybook/addon-a11y": "^6.5.0-beta.0",
-		"@storybook/addon-actions": "^6.5.0-beta.0",
-		"@storybook/addon-essentials": "^6.5.0-beta.0",
-		"@storybook/addon-interactions": "^6.5.0-beta.0",
-		"@storybook/addon-links": "^6.5.0-beta.0",
-		"@storybook/builder-vite": "^0.1.30",
-		"@storybook/react": "^6.5.0-beta.0",
+		"@storybook/addon-a11y": "^6.5.0-beta.6",
+		"@storybook/addon-actions": "^6.5.0-beta.6",
+		"@storybook/addon-essentials": "^6.5.0-beta.6",
+		"@storybook/addon-interactions": "^6.5.0-beta.6",
+		"@storybook/addon-links": "^6.5.0-beta.6",
+		"@storybook/builder-vite": "^0.1.33",
+		"@storybook/react": "^6.5.0-beta.6",
 		"@storybook/testing-library": "^0.0.11",
-		"vite": "^2.9.2"
+		"vite": "^2.9.8"
 	}
 }
